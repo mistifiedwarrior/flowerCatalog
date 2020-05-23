@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+  color: orange;
+  padding-right: 10%;
+}
+
+.container {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  margin-left: 50px;
+}
+.abc {
+  margin: auto 12px;
+}

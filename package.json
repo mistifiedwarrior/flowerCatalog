@@ -1,0 +1,23 @@
+{
+  "name": "flowerCatalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nyc mocha --color",
+    "dev": "nodemon server.js -i public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

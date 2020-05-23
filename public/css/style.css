@@ -1,0 +1,23 @@
+.title {
+  text-align: right;
+  color: orange;
+  padding-right: 10%;
+}
+
+.container {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  margin-left: 50px;
+}
+
+.img {
+  margin-left: 100px;
+}
+.hidden {
+  display: none;
+}
